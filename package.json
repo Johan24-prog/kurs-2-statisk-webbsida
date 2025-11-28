@@ -1,0 +1,24 @@
+{
+  "name": "net25-statisk-webbsida",
+  "version": "1.0.0",
+  "description": "En valfri statisk webbsida med HTML och CSS",
+  "homepage": "https://github.com/EduEdugrade/.net25-statisk-webbsida#readme",
+  "bugs": {
+    "url": "https://github.com/EduEdugrade/.net25-statisk-webbsida/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduEdugrade/.net25-statisk-webbsida.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "dependencies": {
+    "css": "^3.0.0",
+    "jsdom": "^27.2.0"
+  }
+}
