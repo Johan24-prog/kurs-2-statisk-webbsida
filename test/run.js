@@ -116,7 +116,7 @@ const hasBodyTag = /<\s*body\s*>/;
             if (!lang) {
                 testError(`Sätt språket på sidan via <html ${GREEN}lang=""${RESET}>`);
             }
-            else if (lowerCaseLang != "sv" == lowerCaseLang != "en") {
+            else if (lowerCaseLang != "sv" && lowerCaseLang != "en") {
                 testError(`<html lang=${RED}"${lang}"${RESET}> är inte ett giltigt värde, använd svenska (${GREEN}sv${RESET}) eller engelska (${GREEN}en${RESET})`);
             }
 
